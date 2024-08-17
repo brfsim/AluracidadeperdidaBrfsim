@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(130, 216, 169);
+    color: rgb(13, 70, 19);
+   font-family: "Rowdies", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(56, 87, 56);
+    color: rgb(176, 246, 188);
+    font-family: "Rowdies", sans-serif;    
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block; 
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 50%;
+}
